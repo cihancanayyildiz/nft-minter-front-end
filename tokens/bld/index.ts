@@ -100,6 +100,8 @@ async function createBldToken(
             metadataTransaction: transactionSignature,
         })
     );
+
+    console.log(transactionSignature);
 }
 
 async function main() {
